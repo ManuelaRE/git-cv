@@ -1,0 +1,105 @@
+body{
+  position: relative;
+  background-color: #F0EDD2;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7B7B7B;
+  font-family: "Courier New",sans-serif;
+  letter-spacing: 4px;
+  font-weight: 200;
+  font-size: 4em;
+  padding: 20px;
+}
+
+h4{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #7B7B7B;
+  font-family: "Courier New",sans-serif;
+  letter-spacing: 4px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row p {
+  font-family: "Courier New",sans-serif;
+  color: #7B7B7B;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  line-height: 110%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.container {
+  padding-right: 35px;
+}
+
+/* Style sidebar page and Activate first button (Profile) */
+#sidebar2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 80px;
+  border: 0px solid transparent;
+}
+
+#active2 {
+  background-color: #002A32;
+  color: white;
+}
+
+/* Menu buttons style */
+.btn {
+  background-color: #D6F8D6;
+  border: 0px solid transparent;
+  width:130px;
+  height: 90px;
+  border-radius: 0px;
+  color: #002A32;
+  font-family: "Courier New",sans-serif;
+  font-size: 17px;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+/* Bottom right button front page style */
+
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding-right: 80px;
+  padding-top: 100%;
+}
+
+i {
+  border: solid #002A32;
+  border-width: 8px 0px 0px 8px;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+}
+
+.btn:hover {
+  color: white;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/1bd6146561.js" crossorigin="anonymous"></script>
+        <link href="css/contact.css" rel="stylesheet">
+        <script src="javascript/javascript.js"></script>
+        <title>M.R - Contact</title>
+    </head>
+    <body>
+        <div id="sidebar2">
+            <ul>
+                <li><button type="button" class="btn btn-dark" onClick="location.href='/homepage/index.html'">Profile</button></li>
+                <li><button type="button" class="btn btn-dark" onClick="location.href='/homepage/experience.html'">Experience</button></li>
+                <li><button type="button" class="btn btn-dark" onClick="location.href='/homepage/projects.html'">Projects</button></li>
+                <li><button type="button" class="btn btn-dark" id="active2" onClick="location.href='/homepage/contact.html'">Contact</button></li>
+            </ul>
+        </div>
+        <h1>Contact</h1>
+        <hr>
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="initial">Select country</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="UK">United Kingdom</option>
+              <option value="usa">USA</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </body>
+</html>

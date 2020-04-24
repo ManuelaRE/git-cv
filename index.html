@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/1bd6146561.js" crossorigin="anonymous"></script>
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="javascript/javascript.js"></script>
+
+        <title>Manuela Redinciuc - resume</title>
+    </head>
+
+
+    <body>
+        <!-- Set first background and welcome text -->
+        <div class="bg">
+          <img src="images/hello.jpg" alt="background" style="width:100%;">
+              <div class="text-block">
+                  <h1>MANUELA REDINCIUC</h1>
+                  <h2>Resume</h2>
+              </div>
+        <!-- Create arrow button -->
+              <div class="bottom-right">
+                  <button type="button" class="btn btn-dark" onClick="myFunction()"><i class="arrow down"></i></button>
+              </div>
+        </div>
+        <!-- Create profile page, 1 row, 4 columns and 1 side bar -->
+        <div class="profile" id=#profile>
+            <div class="row1">
+                <div class="col1">
+                    <img src="images/round1.jpg" alt="my photo" id="photo">
+                    <div class="col3">
+                        <h3 class="bold">Details</h3>
+                        <p class="bold">Name:</p>
+                        <p>Manuela Redinciuc</p>
+                        <p class="bold">Age:</p>
+                        <p>
+                            <script>document.write(get_age());</script> years
+                        </p>
+                        <p class="bold">Location:</p>
+                        <p>London, United Kingdom</p>
+                    </div>
+                </div>
+
+                <div class="col2">
+                    <h1>Profile</h1>
+                    <h5>- Aspiring Web Developer -</h5>
+                    <div class="col4">
+                        <p>After a 10 year career in the Travel sector I've decided to venture myself in the world of computer programing. </p>
+                        <p>I am taking Harvard CS50 (Intro into Computer Sicience) and I have been accepted to _nology bootcamp course starting Septerber 2020. Exciting!</p>
+                    </div>
+                </div>
+
+                <div id="sidebar">
+                    <ul>
+                        <li><button type="button" class="btn btn-dark" id="active">Profile</button></li>
+                        <li><button type="button" class="btn btn-dark" onClick="location.href='/homepage/experience.html'">Experience</button></li>
+                        <li><button type="button" class="btn btn-dark" onClick="location.href='/homepage/projects.html'">Projects</button></li>
+                        <li><button type="button" class="btn btn-dark" onClick="location.href='/homepage/contact.html'">Contact</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

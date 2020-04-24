@@ -1,0 +1,113 @@
+body{
+  position: relative;
+  background-color: #F0EDD2;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7B7B7B;
+  font-family: "Courier New",sans-serif;
+  letter-spacing: 4px;
+  font-weight: 200;
+  font-size: 4em;
+  padding: 20px;
+}
+
+
+/* Style sidebar page and Activate first button (Profile) */
+#sidebar2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 80px;
+  border: 0px solid transparent;
+}
+
+#active2 {
+  background-color: #002A32;
+  color: white;
+}
+
+/* Menu buttons style */
+.btn {
+  background-color: #D6F8D6;
+  border: 0px solid transparent;
+  width:130px;
+  height: 90px;
+  border-radius: 0px;
+  color: #002A32;
+  font-family: "Courier New",sans-serif;
+  font-size: 17px;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+/* Bottom right button front page style */
+
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding-right: 80px;
+  padding-top: 100%;
+}
+
+i {
+  border: solid #002A32;
+  border-width: 8px 0px 0px 8px;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+}
+
+/* Contact form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Courier New",sans-serif;
+
+}
+
+input[type=submit] {
+  background-color: #002A32;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Courier New",sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 80px;
+  box-sizing: border-box;
+  margin-right: 300px;
+  font-family: "Courier New",sans-serif;
+  font-weight: bold;
+  color: #7B7B7B;
+
+}

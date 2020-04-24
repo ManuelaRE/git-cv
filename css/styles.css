@@ -1,0 +1,184 @@
+/* Container holding the image and the text */
+.bg {
+  position: relative;
+  text-align: center;
+  color: white;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Centered text */
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+/* Style the front page text */
+.text-block h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: black;
+    padding: 7px 20px;
+    background-color: white;
+    font-family: "Courier New",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+/* Bottom right button front page */
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding-right: 80px;
+  padding-top: 100%;
+}
+
+/* Bottom right button front page style */
+.btn {
+  background-color: #D6F8D6;
+  font-size:70px;
+  border: 0px solid transparent;
+  width:130px;
+  height: 90px;
+  border-radius: 0px;
+}
+
+i {
+  border: solid #002A32;
+  border-width: 0px 8px 8px 0px;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Menu buttons style */
+.btn {
+  background-color: #D6F8D6;
+  border: 0px solid transparent;
+  width:130px;
+  height: 90px;
+  border-radius: 0px;
+  color: #002A32;
+  font-family: "Courier New",sans-serif;
+  font-size: 17px;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Activate first button (Profile) */
+#active {
+  background-color: #002A32;
+  color: white;
+}
+
+/* Position the Profile page into 2 rows*/
+.profile {
+  position: relative;
+}
+
+.row1 {
+  position: relative;
+  margin: 0px;
+}
+
+.col1 {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 10%;
+  right: 25%;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.col2 {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 20%;
+  right: 25%;
+  z-index: 2;
+  margin-top: 60px;
+}
+
+.col2 h1 {
+  font-family: "Courier New",sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #163F47;
+}
+
+.col2 h5 {
+  font-family: "Courier New",sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #434242 !important;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 80px;
+}
+
+
+#photo {
+  height: 190px;
+  width: 190px;
+
+}
+
+.col3 {
+  font-family: "Courier New",sans-serif;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.col4 {
+  font-family: "Courier New",sans-serif;
+  padding: 170px 200px 30px 250px;
+  text-align: justify;
+}
+
+.btn-linkedin {
+	 background: #0E76A8;
+	 border-radius: 0;
+	 color: #fff;
+	 border-width: 1px;
+	 border-style: solid;
+	 border-color: #084461;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+	 color: #fff;
+	}
+.btn-linkedin:active, .btn-linkedin:hover {
+	 background: #084461;
+	 color: #fff;
+	}
