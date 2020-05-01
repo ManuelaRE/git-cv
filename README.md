@@ -1,5 +1,5 @@
 # git-cv
-interactive CV done for CS50 from HArvard university
+interactive CV done for CS50 from Harvard university
 
 You can see the webpage here:
 
